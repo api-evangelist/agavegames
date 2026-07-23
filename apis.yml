@@ -1,8 +1,24 @@
 aid: agavegames
 name: agavegames
-description: agavegames is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Agave Games is a mobile game publisher based in Istanbul, Turkey, founded in 2021 by Alper
+  Oner, Burak Kar, and Ali Baran Terzioglu. The company specializes in casual puzzle games played by
+  millions, with titles including Find the Cat, Wonder Link, What The Hex, Soda Match, and Art Block
+  Puzzle across iOS and Android. Backed by Balderton Capital and Felix Capital (Series A, December 2024),
+  Agave Games is a consumer-facing gaming company; it publishes no public developer portal, API, or
+  documentation surface. This profile was surfaced as a Balderton Capital portfolio company and enriched
+  with a live domain-security probe and identity hygiene.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69aaa2cda6ab7f3f235848ce/6a4e6a12e2a5a74dbea289e9_bg-thumb-w-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/agavegames/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,6 +31,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Puzzle Games
+- Games
+- Mobile
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/agavegames-domain-security.yml
 - type: Website
   url: https://www.agavegames.com/
+- type: PrivacyPolicy
+  url: https://www.agavegames.com/privacy-policy
+- type: Careers
+  url: https://www.agavegames.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/agavegames
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
