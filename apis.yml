@@ -7,6 +7,17 @@ description: Agave Games is a mobile game publisher based in Istanbul, Turkey, f
   Agave Games is a consumer-facing gaming company; it publishes no public developer portal, API, or
   documentation surface. This profile was surfaced as a Balderton Capital portfolio company and enriched
   with a live domain-security probe and identity hygiene.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
